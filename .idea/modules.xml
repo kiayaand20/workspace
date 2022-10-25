@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CodeReview_Practice/CodeReview_Practice.iml" filepath="$PROJECT_DIR$/CodeReview_Practice/CodeReview_Practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab01.1/Lab01.1.iml" filepath="$PROJECT_DIR$/Lab01.1/Lab01.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab02.2/Lab02.2.iml" filepath="$PROJECT_DIR$/Lab02.2/Lab02.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab02.2-extra/Lab02.2-extra.iml" filepath="$PROJECT_DIR$/Lab02.2-extra/Lab02.2-extra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab02.2-practice/Lab02.2-practice.iml" filepath="$PROJECT_DIR$/Lab02.2-practice/Lab02.2-practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab03.1/Lab03.1.iml" filepath="$PROJECT_DIR$/Lab03.1/Lab03.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab05-extra/Lab05-extra.iml" filepath="$PROJECT_DIR$/Lab05-extra/Lab05-extra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab05.2/src/Lab05.2.iml" filepath="$PROJECT_DIR$/Lab05.2/src/Lab05.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab07.1/Lab07.1.iml" filepath="$PROJECT_DIR$/Lab07.1/Lab07.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab08.1/Lab08.1.iml" filepath="$PROJECT_DIR$/Lab08.1/Lab08.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab08.1-Extra/Lab08.1-Extra.iml" filepath="$PROJECT_DIR$/Lab08.1-Extra/Lab08.1-Extra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WhiteboardModel/WhiteboardModel.iml" filepath="$PROJECT_DIR$/WhiteboardModel/WhiteboardModel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/workspace.iml" filepath="$PROJECT_DIR$/workspace.iml" />
+    </modules>
+  </component>
+</project>

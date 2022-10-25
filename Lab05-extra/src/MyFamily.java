@@ -1,0 +1,3 @@
+enum MyFamily {
+    KIAYA, XAVIER, MARLEE, DENISE, STRANGE
+}
