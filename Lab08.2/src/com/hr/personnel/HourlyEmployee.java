@@ -6,13 +6,13 @@ public class HourlyEmployee extends Employee {
     private double rate;
     private double hours;
 
-    public HourlyEmployee() {
-    }
-
     public HourlyEmployee(String name, LocalDate hireDate, double rate, double hours) {
         super(name, hireDate);
         this.rate = rate;
         this.hours = hours;
+    }
+    public void pay(){
+        System.out.println(getName() + " is paid hourly " + (getHours() * getRate()));
     }
 
     public double getRate() {
@@ -33,9 +33,7 @@ public class HourlyEmployee extends Employee {
 
     @Override
     public String toString() {
-        return "HourlyEmployee {" +
-                "name= " + getName() + ", " +
-                "hireDate= " + getHireDate() + ", " +
+        return super.toString() +
                 "rate= " + getRate() + ", " +
                 "hours= " + getHours() +
                 '}';

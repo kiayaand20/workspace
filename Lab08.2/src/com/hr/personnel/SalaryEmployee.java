@@ -5,9 +5,6 @@ import java.time.LocalDate;
 public class SalaryEmployee extends Employee {
     private double salary;
 
-    public SalaryEmployee() {
-    }
-
     public SalaryEmployee(String name, LocalDate hireDate, double salary) {
         super(name, hireDate);
         this.salary = salary;
@@ -21,11 +18,18 @@ public class SalaryEmployee extends Employee {
         this.salary = salary;
     }
 
+    public void pay(){
+        System.out.println(getName() + " is paid salary " + getSalary());
+    }
+
+    @Override
+    public void work() {
+        System.out.println("test");
+    }
+
     @Override
     public String toString() {
-        return "SalaryEmployee {" +
-                "name= " + getName() + ", " +
-                "hireDate= " + getHireDate() + ", " +
+        return super.toString() +
                 "salary= " + getSalary() +
                 '}';
     }
