@@ -15,6 +15,10 @@ import java.util.Arrays;
  * This is our "business class" in the lab series.
  * It does NOT have a main() method - most classes don't.
  */
+
+//Test, test, 123
+//Merge conflicts are no fun
+
 public class Television {
     // CLASS (static) variables - these are shared among all instances
     public static final int MIN_VOLUME = 0;
