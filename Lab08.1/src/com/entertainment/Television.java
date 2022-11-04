@@ -32,6 +32,9 @@ public class Television {
         return instanceCount;
     }
 
+    //More changes to figure out merge conflicts.
+    //This is interesting. 
+    
     // PROPERTIES or ATTRIBUTES, generally called "fields" or "instance variables"
     // these live *inside each instance*
     private String brand;
