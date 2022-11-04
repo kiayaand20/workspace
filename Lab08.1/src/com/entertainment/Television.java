@@ -34,6 +34,7 @@ public class Television {
 
     //More changes to figure out merge conflicts.
     //This is interesting. 
+    //Change? Yes please.
     
     // PROPERTIES or ATTRIBUTES, generally called "fields" or "instance variables"
     // these live *inside each instance*
