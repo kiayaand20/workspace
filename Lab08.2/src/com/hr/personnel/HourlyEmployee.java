@@ -2,6 +2,9 @@ package com.hr.personnel;
 
 import java.time.LocalDate;
 
+//Testing, 1, 2, 3.
+//Kiaya is the best!
+
 public class HourlyEmployee extends Employee {
     private double rate;
     private double hours;
