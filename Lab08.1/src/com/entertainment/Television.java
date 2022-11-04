@@ -16,9 +16,6 @@ import java.util.Arrays;
  * It does NOT have a main() method - most classes don't.
  */
 
-//Test, test, 123
-//Merge conflicts are no fun
-
 public class Television {
     // CLASS (static) variables - these are shared among all instances
     public static final int MIN_VOLUME = 0;
@@ -31,10 +28,6 @@ public class Television {
     public static int getInstanceCount() {
         return instanceCount;
     }
-
-    //More changes to figure out merge conflicts.
-    //This is interesting. 
-    //Change? Yes please.
     
     // PROPERTIES or ATTRIBUTES, generally called "fields" or "instance variables"
     // these live *inside each instance*

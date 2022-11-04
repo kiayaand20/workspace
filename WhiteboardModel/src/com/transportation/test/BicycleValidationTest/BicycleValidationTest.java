@@ -5,12 +5,15 @@ import com.transportation.Bicycle.Bicycle;
 public class BicycleValidationTest {
 
     public static void main(String[] args) {
-        Bicycle bikeTest1 = new Bicycle("Schwinn", "carbon", 25);
+        Bicycle bikeTest1 = null;
+        try {
+            bikeTest1 = new Bicycle("Schwinn", "carbon", 30);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
-        System.out.println(bikeTest1);
-        bikeTest1.setFrameSize(30);
-        bikeTest1.setFrameSize(18);
-        System.out.println(bikeTest1);
+//        bikeTest1.setFrameSize(25);
+//        System.out.println(bikeTest1);
 
     }
 }

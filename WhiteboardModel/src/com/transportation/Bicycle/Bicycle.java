@@ -1,6 +1,7 @@
 package com.transportation.Bicycle;
 
 import com.transportation.BicycleGearType.BicycleGearType;
+import com.transportation.test.BicycleValidationTest.IllegalFrameSize;
 
 public class Bicycle {
     private String brand;
@@ -14,10 +15,10 @@ public class Bicycle {
         setBrand(brand);
     }
 
-    public Bicycle(String brand, String frame, int frameSize) {
+    public Bicycle(String brand, String frame, int frameSize) throws IllegalFrameSize {
         this(brand);
         setFrameMaterial(frame);
-        this.frameSize = frameSize;
+        setFrameSize(frameSize);
     }
 
     public Bicycle(String brand, String frame, int frameSize, BicycleGearType bicycleType) {
@@ -55,12 +56,11 @@ public class Bicycle {
         return frameSize;
     }
 
-    public void setFrameSize(int frameSize) {
+    public void setFrameSize(int frameSize) throws IllegalFrameSize {
         if (frameSize < MIN_FRAME_SIZE || frameSize > MAX_FRAME_SIZE) {
-            System.out.println("Error. Invalid frame size. Must be between 17 and 26.");
-        } else {
-            this.frameSize = frameSize;
+            throw new IllegalFrameSize("Error. Invalid frame size. Must be between " + MIN_FRAME_SIZE + " and " + MAX_FRAME_SIZE + ".");
         }
+        this.frameSize = frameSize;
     }
 
     public BicycleGearType getBicycleGearType() {

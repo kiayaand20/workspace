@@ -77,7 +77,7 @@ class AnimalHospital {
 
 class AnimalHospitalClient {
 
-    private static Animal[] animals = new Animal[100];
+    private static Animal[] animals = new Animal[100];//instance
     private static int currrentIndex = 0;
 
     public static void main(String[] args) {

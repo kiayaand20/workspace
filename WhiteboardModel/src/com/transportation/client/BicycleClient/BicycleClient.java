@@ -2,9 +2,10 @@ package com.transportation.client.BicycleClient;
 
 import com.transportation.Bicycle.Bicycle;
 import com.transportation.BicycleGearType.BicycleGearType;
+import com.transportation.test.BicycleValidationTest.IllegalFrameSize;
 
 public class BicycleClient {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IllegalFrameSize {
         Bicycle bike1 = new Bicycle("Cannondale");
         Bicycle bike2 = new Bicycle("Trek", "metal", 22);
         Bicycle bike3 = new Bicycle("Specialized", "carbon", 18, BicycleGearType.MULTI_SPEED);
