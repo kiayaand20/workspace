@@ -16,6 +16,7 @@ import java.util.Arrays;
  * It does NOT have a main() method - most classes don't.
  */
 
+
 public class Television {
     // CLASS (static) variables - these are shared among all instances
     public static final int MIN_VOLUME = 0;
@@ -28,7 +29,7 @@ public class Television {
     public static int getInstanceCount() {
         return instanceCount;
     }
-    
+
     // PROPERTIES or ATTRIBUTES, generally called "fields" or "instance variables"
     // these live *inside each instance*
     private String brand;
